@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 print("Loading real-world sales data from Sales_Data.csv...")
 
 # Loading the CSV you uploaded
-df = pd.read_csv('c:/Users/adity/Desktop/Thiranex/Task 4/Sales_Data.csv')
+df = pd.read_csv('Sales_Data.csv')
 
 # Preprocessing: Convert Order_Date to datetime
 # Using dayfirst=False as the sample shows MM/DD/YYYY or MM-DD-YYYY
